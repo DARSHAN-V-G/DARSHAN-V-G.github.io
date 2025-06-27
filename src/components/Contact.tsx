@@ -6,22 +6,22 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'darshan@example.com',
-      link: 'mailto:darshan@example.com',
+      value: 'darshanguna22@gmail.com',
+      link: 'mailto:darshanguna22@gmail.com',
       color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/darshan',
-      link: 'https://github.com/darshan',
+      value: 'github.com/darshan-v-v',
+      link: 'https://github.com/darshan-v-g',
       color: 'from-gray-700 to-gray-900'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/darshan',
-      link: 'https://linkedin.com/in/darshan',
+      value: 'linkedin.com/in/darshan-v-g',
+      link: 'https://linkedin.com/in/darshan-v-g',
       color: 'from-blue-600 to-blue-800'
     },
     {
@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="https://github.com/darshan"
+                href="https://github.com/darshan-v-g"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 bg-gradient-to-r from-gray-700 to-gray-900 text-white rounded-2xl hover:from-gray-600 hover:to-gray-800 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/darshan"
+                href="https://linkedin.com/in/darshan-v-g"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-2xl hover:from-blue-500 hover:to-blue-700 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:darshan@example.com"
+                href="mailto:darshanguna22@gmail.com"
                 className="p-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-2xl hover:from-blue-400 hover:to-cyan-400 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
               >
                 <Mail size={24} />

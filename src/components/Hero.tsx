@@ -62,14 +62,14 @@ const Hero: React.FC = () => {
               <span className="text-gray-700 dark:text-gray-300">Coimbatore</span>
             </div>
             <a 
-              href="mailto:darshan@example.com" 
+              href="mailto:darshanguna22@gmail.com" 
               className="flex items-center gap-2 px-4 py-2 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <Mail size={18} className="text-primary-500" />
               <span className="text-gray-700 dark:text-gray-300">Email</span>
             </a>
             <a 
-              href="https://github.com/darshan" 
+              href="https://github.com/darshan-v-g" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
@@ -78,7 +78,7 @@ const Hero: React.FC = () => {
               <span className="text-gray-700 dark:text-gray-300">GitHub</span>
             </a>
             <a 
-              href="https://linkedin.com/in/darshan" 
+              href="https://linkedin.com/in/darshan-v-g" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
@@ -95,10 +95,15 @@ const Hero: React.FC = () => {
             >
               View My Work
             </button>
-            <button className="flex items-center gap-2 px-8 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-gray-200 dark:border-gray-700">
+            <a 
+              href="https://drive.google.com/file/d/12bZwiKEEO6VK45VTEjvph3U51enfxjpD/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-8 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-gray-200 dark:border-gray-700"
+            >
               <Download size={18} />
-              Download Resume
-            </button>
+              View Resume
+            </a>
           </div>
         </div>
       </div>
