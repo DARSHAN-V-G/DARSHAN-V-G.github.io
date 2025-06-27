@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/darshan-portfolio/', // Replace 'darshan-portfolio' with your actual repository name
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
