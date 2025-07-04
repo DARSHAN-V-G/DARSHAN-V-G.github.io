@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, MapPin, Send, Phone, MessageCircle } from 'lucide-react';
+import { Mail, Github, Linkedin, MapPin, MessageCircle } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const contactInfo = [
@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/darshan-v-v',
+      value: 'github.com/darshan-v-g',
       link: 'https://github.com/darshan-v-g',
       color: 'from-gray-700 to-gray-900'
     },
@@ -45,26 +45,26 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-3">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center justify-center gap-3">
                 <MessageCircle className="text-primary-500" size={28} />
                 Get In Touch
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-8">
+              <p className="text-gray-600 dark:text-gray-300 mb-8 text-center">
                 Whether you have a project in mind, want to collaborate, or just want to say hello, 
                 I'd love to hear from you. Let's build something amazing together!
               </p>
 
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
                 {contactInfo.map((item, index) => {
                   const IconComponent = item.icon;
                   return (
                     <div
                       key={index}
-                      className="flex items-center p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-slide-in-left"
+                      className="flex items-center p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-slide-in-left"
                       style={{ animationDelay: `${index * 0.1}s` }}
                     >
                       <div className={`p-3 rounded-xl bg-gradient-to-r ${item.color} text-white mr-4 flex-shrink-0`}>
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex gap-4">
+            <div className="flex justify-center gap-6">
               <a
                 href="https://github.com/darshan-v-g"
                 target="_blank"
@@ -120,64 +120,6 @@ const Contact: React.FC = () => {
                 <Mail size={24} />
               </a>
             </div>
-          </div>
-
-          {/* Contact Form */}
-          <div className="bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-2xl animate-slide-in-right">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              Send Message
-            </h3>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 text-gray-900 dark:text-white"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 text-gray-900 dark:text-white"
-                    placeholder="your@email.com"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 text-gray-900 dark:text-white"
-                  placeholder="Project collaboration"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  Message
-                </label>
-                <textarea
-                  rows={5}
-                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 text-gray-900 dark:text-white resize-none"
-                  placeholder="Tell me about your project or idea..."
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 text-white rounded-xl font-medium hover:from-primary-600 hover:to-accent-600 transition-all duration-300 transform hover:scale-[1.02] shadow-lg hover:shadow-xl"
-              >
-                <Send size={20} />
-                Send Message
-              </button>
-            </form>
           </div>
         </div>
       </div>

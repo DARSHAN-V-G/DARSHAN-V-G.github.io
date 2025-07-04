@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
       description: 'Google OAuth-based event registration system with full backend monitoring and deployment pipeline.',
       techStack: ['Supabase', 'Docker', 'Winston-Loki', 'Grafana'],
       role: 'solo',
-      github: 'https://github.com/darshan/infinitum-registration',
+      github: 'https://github.com/GitHub-Campus-Club-PSGCT/Infinitum_website',
       category: 'Full Stack'
     },
     {
@@ -16,6 +16,7 @@ const Projects: React.FC = () => {
       description: 'Digitized verification workflow of college\'s external testing process, with multi-level approvals and role-based tracking.',
       techStack: ['MERN', 'PostgreSQL', 'Docker'],
       role: 'team',
+      github:'https://github.com/DARSHAN-V-G/CSRC_Testing_verification',
       category: 'Web Development'
     },
     {
@@ -30,15 +31,15 @@ const Projects: React.FC = () => {
       description: 'Auction + debugging platform for competitive programming events; real-time bidding and gameplay using WebSockets.',
       techStack: ['MERN', 'Socket.io'],
       role: 'team',
-      github: 'https://github.com/darshan/codopoly',
+      github: 'https://github.com/DARSHAN-V-G/Codopoly-Kriya2025',
       category: 'Real-time'
     },
     {
       title: 'Kriya Bot',
       description: 'AI-based chatbot answering participant queries using vector search and large language models.',
       techStack: ['Python', 'RAG', 'Llama 3.1', 'Hugging Face'],
-      role: 'solo',
-      github: 'https://github.com/darshan/kriya-bot',
+      role: 'team',
+      github: 'https://github.com/Students-Union-PSGTech/Kriya_Bot',
       category: 'AI/ML'
     },
     {
@@ -46,13 +47,15 @@ const Projects: React.FC = () => {
       description: 'Immersive historical learning experience with interactive UI and AI-powered voice narration.',
       techStack: ['MERN', 'Three.js', 'ElevenLabs', 'Gemini API'],
       role: 'team',
+      github:'https://github.com/DARSHAN-V-G/ideathon-team-OnO',
       category: 'Interactive'
     },
     {
       title: 'College Management System',
       description: 'Multi-module web system for class bookings, library management, and lost & found.',
       techStack: ['Flask', 'MongoDB'],
-      role: 'solo',
+      role: 'team',
+      github:'https://github.com/DARSHAN-V-G/GitGud_1426_NexTech',
       category: 'Web Development'
     }
   ];
@@ -133,10 +136,7 @@ const Projects: React.FC = () => {
                       <span className="text-sm">Code</span>
                     </a>
                   )}
-                  <button className="flex items-center gap-2 px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors duration-300">
-                    <ExternalLink size={16} />
-                    <span className="text-sm">Live Demo</span>
-                  </button>
+
                 </div>
               </div>
             </div>

@@ -30,7 +30,7 @@ const Skills: React.FC = () => {
     {
       title: 'Core CS Concepts',
       icon: Brain,
-      skills: ['OS (scheduling, threads, memory)', 'CN (protocols, sockets)', 'DBMS (SQL, joins, indexing)'],
+      skills: ['OS (scheduling, threads, memory)', 'DBMS (SQL, joins, indexing)'],
       color: 'from-pink-500 to-rose-500'
     },
     {

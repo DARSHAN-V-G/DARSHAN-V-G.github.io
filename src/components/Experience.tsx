@@ -6,7 +6,7 @@ const Experience: React.FC = () => {
     {
       organization: 'Students Union (SU)',
       role: 'Technical Lead',
-      period: '2023 - Present',
+      period: '2024 - Present',
       location: 'PSG Tech',
       description: 'Leading technical initiatives including Kriya Bot development, infrastructure optimization, and implementing monitoring tools for student events.',
       achievements: [
@@ -19,7 +19,7 @@ const Experience: React.FC = () => {
     {
       organization: 'GitHub Campus Club',
       role: 'Core Team Member',
-      period: '2022 - Present',
+      period: '2024 - Present',
       location: 'PSG Tech',
       description: 'Contributing to open-source projects and organizing developer events. Built Codopoly and giTogether portal.',
       achievements: [
@@ -32,7 +32,7 @@ const Experience: React.FC = () => {
     {
       organization: 'CSEA (Computer Science Engineers Association)',
       role: 'Backend Developer',
-      period: '2022 - Present',
+      period: '2024 - Present',
       location: 'PSG Tech',
       description: 'Backend development for department events and systems. Built Infinitum registration system and EMS project.',
       achievements: [
